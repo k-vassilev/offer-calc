@@ -528,7 +528,7 @@ class Offer_Calc_Meta_Box {
 		$c = 0;
 		$meta = get_post_meta( $post->ID, $field['id'], true );
 		
-		if( count( $meta ) > 0 && is_array( $meta ) ) {
+		if( count( array( $meta ) ) > 0 && is_array( $meta ) ) {
 			 
 			foreach( $meta as $me ) {				
 				
